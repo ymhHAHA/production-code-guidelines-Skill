@@ -1,0 +1,14 @@
+{
+  "name": "production-code-guidelines",
+  "version": "1.0.0",
+  "description": "面向大语言模型（LLM）的生产代码生成规范，严格压制过度工程化、防御性代码膨胀、静默兜底及教程式输出，产出高可审查性的工业级代码",
+  "author": "",
+  "license": "MIT",
+  "compatibility": ["codex", "claude-code"],
+  "main": "SKILL.md",
+  "agents": {
+    "codex": "agents/openai.yaml",
+    "claude-code": "agents/claude.yaml"
+  },
+  "categories": ["coding-standards", "productivity", "AI-assistant"]
+}

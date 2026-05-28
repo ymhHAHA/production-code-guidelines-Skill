@@ -1,0 +1,4 @@
+interface:
+  display_name: "Production Code Guidelines"
+  short_description: "面向生产环境的代码精简与边界规范"
+  default_prompt: "使用 production-code-guidelines 规范来审查、编写或修改此任务的代码，确保没有过度工程化、无意义判空或静默兜底。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Production Code Guidelines"
+  short_description: "面向生产环境的代码精简与边界规范"
+  default_prompt: "Use $production-code-guidelines to restrict the generated or modified code to minimal, surgical changes without defensive bloat or silent fallbacks."
